@@ -2,16 +2,18 @@ import React from 'react';
 import logo from 'images/A-logo-for-a-fast-food-brand.png';
 
 const Header = ({
-    imglogo = {logo}
+    // imglogo = {logo}
 
 }) => (
-    <Header>
-      <img src={logo} width="640" />
-      <button>Home</button>
-      <button>About us</button>
-      <button>Delivery</button>
-      <button>Contacts</button>
-      </Header>
+    <header>
+      <img className='header_logo' src={logo} width="156" />
+      <ul className='header_list'>
+        <li className='header_item'><a className='header_link' href="#">Home</a></li>
+        <li className='header_item'><a className='header_link' href="#">About us</a></li>
+        <li className='header_item'><a className='header_link' href="#">Delivery</a></li>
+        <li className='header_item'><a className='header_link' href="#">Contacts</a></li>
+      </ul>
+      </header>
   );
 
 
