@@ -2,9 +2,13 @@ import React from 'react';
 import Product from './components/Product';
 import kfc from './images/kfc.png';
 import zinger from './images/zinger.jpg';
+import Header from './components/Header'
 export const App = () => {
   return (
     <div>
+      <Header>
+        
+      </Header>
       <h1>Best selling products</h1>
       <Product
         imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
