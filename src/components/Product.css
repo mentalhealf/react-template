@@ -1,0 +1,43 @@
+.product_card {
+     /* border: 1px solid red; */
+     width: 500px;
+     border-radius: 20px;
+     padding: 20px;
+
+     background-color: antiquewhite;
+
+}
+
+.product_list {
+    /* border: 1px solid red; */
+    width: 1114px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.product_img {
+    width: 500px;
+    border-radius: 20px
+}
+
+.product_btn {
+    padding: 20px;
+    cursor: pointer;
+    background-color: hotpink;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+}
+
+.product_btn:hover {
+    background-color: rgb(236, 96, 166);
+    color: rgb(252, 247, 226);
+
+}
+
+.product_best {
+    text-align: center;
+}
+

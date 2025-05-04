@@ -5,12 +5,16 @@ import zinger from './images/zinger.jpg';
 import Aboutus from './components/About_us';
 import Header from './components/Header'
 import Footer from './components/Footer'
+import './components/Main.css'
 
 export const App = () => {
   return (
     <div>
+     
       <Header></Header>
-      <h1>Best selling products</h1>
+      <div className='container'>
+      <h1 className='product_best'>Best selling products</h1>
+      <div className='product_list'>
       <Product
         imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
         name="Tacos With Lime"
@@ -31,10 +35,12 @@ export const App = () => {
         name="zinger the original recipe"
         price={6.99}
       />
+      </div>
+      </div>
       <Aboutus></Aboutus>
       
       <Footer></Footer>
-
     </div>
+
   );
 };
