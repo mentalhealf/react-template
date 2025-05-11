@@ -6,6 +6,8 @@ import Aboutus from './components/About_us';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import './components/Main.css'
+import Review from './components/Reviews'
+import Oleg from './images/Oleg.jpg'
 
 export const App = () => {
   return (
@@ -38,6 +40,14 @@ export const App = () => {
       </div>
       </div>
       <Aboutus></Aboutus>
+
+      <Review
+      imgUrl={Oleg}
+      name='Oleg'
+      rating='5⭐//5⭐'
+      text='I like this restourant because.It is very healthy, as im bery strict with my diet.'
+      
+      />
       
       <Footer></Footer>
     </div>
