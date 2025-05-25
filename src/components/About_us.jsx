@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './About_us.css'
 
 const Aboutus = ({}) => (
     <div>
-    <h2>Abous us</h2>
+    <h2 className='aboutus'>Abous us</h2>
   <p>
     Indulge in a fast-food experience that brings together the best of comfort
     and flavor. Our menu features juicy burgers stacked high with fresh

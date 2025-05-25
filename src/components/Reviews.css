@@ -1,0 +1,20 @@
+.review_img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.review_card {
+    width: 500px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    gap:10px;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+
+.review_container {
+    display: flex;
+    gap: 5px;
+}
