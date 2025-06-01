@@ -10,6 +10,10 @@ import Review from './components/Reviews';
 import Oleg from './images/Oleg.jpg';
 import Ivan from './images/Ivan.png';
 import Mariana from './images/Mariana.png';
+import Dessert from 'components/Dessert';
+import chocolate_icecream from './images/chocolate_icecream.jpg';
+import oreo_milkshake from './images/cholate_oreo_milkshake.jpg';
+import Donut from './images/Donuts.jpg'
 
 export const App = () => {
   return (
@@ -62,6 +66,26 @@ export const App = () => {
             name="Mariana"
             rating="5⭐//5⭐"
             text="Friendly service, clean atmosphere, fast and flavorful food—this standout fast food spot feels more like a cozy, high-quality café."
+          />
+        </div>
+
+        <div className="dessert_list">
+          <Dessert
+            imgUrl={chocolate_icecream}
+            name="Chocolate icecream"
+            price={'3'}
+          />
+
+          <Dessert
+            imgUrl={oreo_milkshake}
+            name="Oreo milkshake"
+            price={'4'}
+          />
+
+                    <Dessert
+            imgUrl={Donut}
+            name="Donut"
+            price={'2'}
           />
         </div>
       </div>

@@ -1,0 +1,32 @@
+.dessert_card {
+     /* border: 1px solid red; */
+     width: 250px;
+     border-radius: 20px;
+     padding: 20px;
+
+     background-color: antiquewhite;
+
+}
+
+.dessert_btn {
+    padding: 20px;
+    cursor: pointer;
+    background-color: hotpink;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+}
+
+.dessert_img {
+    width: 250px;
+    border-radius: 20px
+}
+
+.dessert_list {
+    /* border: 1px solid red; */
+    width: 1114px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+}
