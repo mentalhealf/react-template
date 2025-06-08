@@ -13,7 +13,7 @@ import Mariana from './images/Mariana.png';
 import Dessert from 'components/Dessert';
 import chocolate_icecream from './images/chocolate_icecream.jpg';
 import oreo_milkshake from './images/cholate_oreo_milkshake.jpg';
-import Donut from './images/Donuts.jpg'
+import Donut from './images/Donuts.jpg';
 
 export const App = () => {
   return (
@@ -68,7 +68,7 @@ export const App = () => {
             text="Friendly service, clean atmosphere, fast and flavorful food—this standout fast food spot feels more like a cozy, high-quality café."
           />
         </div>
-
+        <h1 className="dessert_h1">Our Deserts</h1>
         <div className="dessert_list">
           <Dessert
             imgUrl={chocolate_icecream}
@@ -76,17 +76,9 @@ export const App = () => {
             price={'3'}
           />
 
-          <Dessert
-            imgUrl={oreo_milkshake}
-            name="Oreo milkshake"
-            price={'4'}
-          />
+          <Dessert imgUrl={oreo_milkshake} name="Oreo milkshake" price={'4'} />
 
-                    <Dessert
-            imgUrl={Donut}
-            name="Donut"
-            price={'2'}
-          />
+          <Dessert imgUrl={Donut} name="Donut" price={'2'} />
         </div>
       </div>
 

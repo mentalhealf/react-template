@@ -1,10 +1,10 @@
 .dessert_card {
-     /* border: 1px solid red; */
-     width: 250px;
-     border-radius: 20px;
-     padding: 20px;
+    /* border: 1px solid red; */
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
 
-     background-color: antiquewhite;
+    background-color: antiquewhite;
 
 }
 
@@ -24,9 +24,17 @@
 
 .dessert_list {
     /* border: 1px solid red; */
-    width: 1114px ;
+    width: 938px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin: 0 auto;
+    padding-top: 100px;
+}
+
+.dessert_h1 {
+    position: relative;
+    left: 664px;
+    top: 63px;
+
 }
