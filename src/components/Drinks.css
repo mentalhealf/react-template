@@ -1,0 +1,40 @@
+.drinks_card {
+    /* border: 1px solid red; */
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+
+    background-color: antiquewhite;
+
+}
+
+.drinks_btn {
+    padding: 20px;
+    cursor: pointer;
+    background-color: hotpink;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+}
+
+.drinks_img {
+    width: 250px;
+    border-radius: 20px
+}
+
+.drinks_list {
+    /* border: 1px solid red; */
+    width: 938px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.drinks_h1 {
+    position: relative;
+    left: 664px;
+    top: 63px;
+
+}

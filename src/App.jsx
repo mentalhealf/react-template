@@ -11,9 +11,13 @@ import Oleg from './images/Oleg.jpg';
 import Ivan from './images/Ivan.png';
 import Mariana from './images/Mariana.png';
 import Dessert from 'components/Dessert';
+import Drinks from 'components/Drinks';
 import chocolate_icecream from './images/chocolate_icecream.jpg';
 import oreo_milkshake from './images/cholate_oreo_milkshake.jpg';
 import Donut from './images/Donuts.jpg';
+import Orange_juice from './images/drink1.jpg'
+import Mahito from './images/drink2.jpg'
+import Pina_colada from './images/drink3.jpg'
 
 export const App = () => {
   return (
@@ -81,6 +85,20 @@ export const App = () => {
           <Dessert imgUrl={Donut} name="Donut" price={'2'} />
         </div>
       </div>
+
+              <h1 className="drinks_h1">Our Drinks</h1>
+        <div className="drinks_list">
+          <Drinks
+            imgUrl={Orange_juice}
+            name="Fresh Orange juice"
+            price={'1,50'}
+          />
+
+          <Drinks imgUrl={Mahito} name="Mahito (non-alchoholic & alcoholic)" price={'3,50'} />
+
+          <Drinks imgUrl={Pina_colada} name="Pina Colada (non-alchoholic & alcoholic)" price={'5'} />
+        </div>
+
 
       <Footer></Footer>
     </div>
