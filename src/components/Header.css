@@ -15,7 +15,7 @@
     display: flex;
     list-style: none;
     gap: 5px;
-    margin-left:450px;
+    margin-left: 450px;
 }
 
 .header_item {
@@ -26,11 +26,11 @@
     width: 40px; */
     vertical-align: middle;
     font-size: 45px;
-    
+
 }
 
 .header_item:hover {
-    background-color: rgb(188, 158, 118) ;
+    background-color: rgb(188, 158, 118);
 }
 
 
@@ -39,3 +39,50 @@
     color: black;
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header {
+        display: flex;
+        align-content: center;
+        background-color: cornsilk;
+        flex-direction: column;
+        width: 414px;
+
+
+    }
+
+    .header_logo {
+        width: 100px;
+    }
+
+
+    .header_list {
+        display: flex;
+        list-style: none;
+        gap: 5px;
+        margin-left: 56px;
+        background-color: cornsilk;
+        flex-direction: column;
+        width: 300px;
+        /* border: 1px solid red; */
+        padding-left: 0;
+    }
+
+    .header_item {
+        background-color: burlywood;
+        padding: 15px 25px;
+        border-radius: 5px;
+        vertical-align: middle;
+        font-size: 45px;
+    }
+
+    .header_item:hover {
+        background-color: rgb(188, 158, 118);
+    }
+
+
+    .header_link {
+        text-decoration: none;
+        color: black;
+    }
+}

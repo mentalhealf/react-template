@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    align-content: center;
+    background-color: cornsilk;
+    margin-top: 100px;
+}
+
+.footer_logo {
+    width: 100px;
+}
+
+
+.footer_item {
+    background-color: burlywood;
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* height: 20px;
+    width: 40px; */
+    vertical-align: middle;
+    font-size: 45px;
+
+}
+
+.footer_item:hover {
+    background-color: rgb(188, 158, 118);
+}
+
+
+.footer_link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer_p {
+    text-align: center;
+    position: relative;
+    left: 681px;
+    font-family: cursive;
+    top: 15px;
+}
+
+.footer_a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
