@@ -67,6 +67,7 @@
         flex-direction: column;
         width: 300px;
         /* border: 1px solid red; */
+        /* stroke-dashoffset: ; */
         padding-left: 0;
     }
 
