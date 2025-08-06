@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmitryberesten.github.io/react-template/",
+  "homepage": "https://mentalhealf.github.io/react-template/",
   "dependencies": {
     "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
