@@ -33,6 +33,44 @@
 }
 
 .dessert_h1 {
-text-align: center;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .dessert_list {
+        /* border: 1px solid red; */
+        width: 938px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 0 auto;
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .dessert_card {
+        /* border: 1px solid red; */
+        width: 278px;
+        border-radius: 20px;
+        padding: 20px;
+
+        background-color: antiquewhite;
+
+    }
+
+    .dessert_img {
+        width: 278px;
+        border-radius: 20px
+    }
+
+    .dessert_h1 {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+
 
 }

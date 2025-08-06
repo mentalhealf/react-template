@@ -44,3 +44,17 @@
     text-decoration: none;
     color: cornflowerblue;
 }
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .footer_p {
+    text-align: center;
+    position: static;
+    
+    font-family: cursive;
+    top: 15px;
+}
+
+}

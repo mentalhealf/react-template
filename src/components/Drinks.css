@@ -36,3 +36,24 @@
     text-align: center;
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .drinks_list {
+    /* border: 1px solid red; */
+    width: 295px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.drinks_h1 {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+}

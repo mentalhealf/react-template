@@ -1,6 +1,14 @@
 .container {
-  width: 1500px ; 
+  width: 1500px;
   margin: 0 auto;
-  border: solid rebeccapurple;
+  /* border: solid rebeccapurple; */
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  .container {
+    width: 320px;
+  }
+
+}
